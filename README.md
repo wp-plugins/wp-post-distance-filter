@@ -1,17 +1,17 @@
-Wordpress Post Distance Filter
+WordPress Post Distance Filter
 =================
 
-Filter Wordpress posts by distance from a location, and optionally specify a maximum distance.
+Filter WordPress posts by distance from a location, and optionally specify a maximum distance.
 
-[Download for Wordpress here!](https://wordpress.org/plugins/wp-post-distance-filter/)
+[Download for WordPress here!](https://wordpress.org/plugins/wp-post-distance-filter/)
 
 This plugin implements simplistic functionality to WordPress posts by enabling archives to be sorted via distances from a specified location when certain URL parameters are detected. You are able to show how far the post's distance is, and restrict results by a certain radius.
 
 ## Setting Up
 
-Activate the plugin in the Plugins menu. An options menu should become available beneath Settings.
+Activate the plugin in the Plugins menu. An option should appear under Settings.
 
-![Activation](http://i.imgur.com/eJ8zZ8F.png)
+![Activation](http://i.imgur.com/7BN03W3.png)
 
 ## Changing Options
 
@@ -38,9 +38,9 @@ Then enter the name of your location <code>meta_key</code> and specify the value
 
 For any archive page, if the URL location parameter is specified, it will order by distance. You can limit the number of results using the URL radius parameter.
 
-![Plugin in Action](http://i.imgur.com/BDuqajL.png)
+![Plugin in Action](http://i.imgur.com/stKQHan.png)
 
-You can show distance information using <code>the_distance();</code> and <code>get_the_distance();</code> within the wordpress loop.
+You can show distance information using <code>the_distance();</code> and <code>get_the_distance();</code> within the WordPress loop.
 
     if (have_posts()) : while (have_posts()) : the_post();
 
